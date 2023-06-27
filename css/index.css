@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 1920px;
+    height: 5155px;
+    background-color: #125577;
+}
+ /* Меню */
+ header{
+    display: flex;
+    margin: 30px auto 0 auto;
+ }
+ header image{
+    justify-content: flex-start;
+ }
+ nav{
+    margin: 30px auto 0 auto;
+ }
+
+ nav a{
+    color: white;
+    margin-left: 50px;
+    text-decoration: none;
+ }
+ header button{
+    justify-content: flex-end;
+    padding: 9px 15px 9px 15px;
+    color: white;
+    background-color: #018abe;
+    border-radius: 10px;
+ }
+               /* Освновной контент */
+   /* укрепление здоровья */
+   .Heads_Logo{
+      width: 1296px;
+      height: 600px;
+      background-image: url("../image/head_logo.png");
+      margin:140px auto 0 auto;
+      text-align: center; 
+   }
+   .Heads_logo_Cont{
+      width: 200px;
+      height: 200px;
+      background-image: url("../image/head_logo.png");
+      
+   }
